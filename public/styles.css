@@ -55,6 +55,22 @@ body{
     background-color: #f07008;
 }
 
+.button.edit {
+    background-color: #a924f7;
+}
+
+.button.delete {
+    background-color: rgb(241, 90, 90);
+}
+
+.button.edit:hover {
+    background-color: #760cb3;
+}
+
+.button.delete:hover {
+    background-color: rgb(194, 19, 19);
+}
+
 /* HEADER */
 
 header, footer {
@@ -148,6 +164,10 @@ section.form .header h3 {
     margin-bottom: 16px;
 }
 
+form .item fields {
+    margin-bottom: 64px;
+}
+
 form .item {
     margin-bottom: 16px;
 }
@@ -189,9 +209,20 @@ form .item textarea {
     min-height: 100px;
 }
 
-form .item fields {
-    margin-bottom: 64px;
+form .item span {
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    border-radius: 16px;
+    color: white;
+    margin-right: 4px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
 }
+
+
 
 
 
