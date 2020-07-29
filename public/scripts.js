@@ -43,6 +43,7 @@ const PhotosUpload = {
         })
 
         PhotosUpload.input.files = PhotosUpload.getAllFiles()
+
     },
     hasLimit(event) {
         const {uploadLimit, input, preview} = PhotosUpload

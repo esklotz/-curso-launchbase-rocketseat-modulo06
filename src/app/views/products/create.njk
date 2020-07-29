@@ -3,7 +3,7 @@
 {% block content %}
     
     <section class="container form">
-        <form method="POST" action="/products">
+        <form method="POST" action="/products" enctype="multipart/form-data">
 
             <div class="header">
                  <h3> Cadastrar Produto </h3>
@@ -16,6 +16,8 @@
             <button class="button" type="submit"> Salvar </button>
             
         </form>
-    </section>
+    </section>   display: flex;
+    align-items: center;
+    justify-content: center;
 
 {% endblock content %}
